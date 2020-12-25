@@ -1,6 +1,7 @@
 /* Given numbers from 0 to n, find the number that occurs most often(Frequent)
 Brute Force solution
 */
+package practice;
 
 import java.util.*;
 
