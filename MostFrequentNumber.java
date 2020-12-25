@@ -6,7 +6,7 @@ import java.util.*;
 
 public class MostFrequentNumber{
     
-    public int mostFrequent(ArrayList<Integer> list){
+    public int findMostFrequent(ArrayList<Integer> list){
         
         if (list.size() == 0){
             System.out.println("list is empty ");
@@ -44,7 +44,7 @@ public class MostFrequentNumber{
         
         MostFrequentNumber object1 = new MostFrequentNumber();
         ArrayList<Integer> list = new ArrayList<Integer>((Arrays.asList(1,1,1,90, 600)));
-        int max = object1.mostFrequent(list);
+        int max = object1.findMostFrequent(list);
         System.out.println("The most frequent number in the list " + list + "is: ");
         System.out.print(max);
     }
